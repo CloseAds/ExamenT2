@@ -11,15 +11,14 @@ public class Ejercicio1 {
 
         if (a % 2 == 0) {
             int i;
-            int b = 3;
-            for (i = 10; i < a; i++) {
-                System.out.print(",");
+            for (i = 10; i < a; i+=5) {
+                System.out.print(i+",");
 
             }
         } else {
             int i;
-            for (i = 10; i < a; i++) {
-                System.out.print(",");
+            for (i = 10; i < a; i+=3) {
+                System.out.print(i+",");
             }
         }
 
